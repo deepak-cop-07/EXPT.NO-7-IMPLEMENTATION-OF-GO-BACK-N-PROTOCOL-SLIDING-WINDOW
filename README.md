@@ -1,9 +1,12 @@
 # EXPT.NO-8-IMPLEMENTATION-OF-GO-BACK-N-PROTOCOL-SLIDING-WINDOW
 # AIM
 To write and execute a program for Go-Back-N protocol.
+
 # EQUIPMENTS REQUIRED
-Personal Computer Turbo C Compiler
+Personal Computer Turbo C Compiler.
+
 # PROCEDURE
+```
 1.	Connect two computers in Wired/Wireless LAN.
 2.	Make sure that two computers are in one network and could able to ping each other.
 3.	In the codeblocker open new c file and type the program.
@@ -11,9 +14,9 @@ Personal Computer Turbo C Compiler
 5.	Execute the program in both server and client.
 6.	Enter the IP address of the remote machine, port address of both local & remote machine and error rate.
 7.	Choose the file and verify the go back protocol operation.
-
+```
 # PROGRAM
-
+```c++
 #include <stdio.h>
 /* Assume 7 frames of data are to sent using GO BACK N ARQW*/ #define window_size 4
 void main()
@@ -40,12 +43,11 @@ printf("No Acknowlegement for frame %d... \n",ack); printf("Resending frames sta
 }
 printf("\n All frames sent successfully.\n");
 }
+```
 
 # OUTPUT
 
- 
+<img width="709" height="414" alt="image" src="https://github.com/user-attachments/assets/b01b36ee-840c-414d-bc64-e4375252c7d4" />
 
-
-
-
-# RESULT: Thus the Go-Back-N protocol-Sliding Window was implemented and the output is verified successfully.
+# RESULT:
+Thus the Go-Back-N protocol-Sliding Window was implemented and the output is verified successfully.
